@@ -18,4 +18,6 @@ if(userAge <= 17 ){
 };
 
 
-document.getElementById("chilometri").innerHTML += result + "£";
+document.getElementById("price").innerHTML += result + "£";
+document.getElementById("distance").innerHTML += userKm + " Km";
+document.getElementById("Age").innerHTML += userAge + " anni"
